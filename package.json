@@ -1,10 +1,12 @@
 {
   "name": "design-sistem",
   "version": "1.0.0",
+  "author": "Fagner Rodrigues",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 8080"
+    "storybook": "start-storybook -p 8080",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "polished": "^3.5.1",
